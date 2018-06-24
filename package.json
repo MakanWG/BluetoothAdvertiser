@@ -1,0 +1,24 @@
+{
+  "name": "bluetoothadvertiser",
+  "version": "1.0.0",
+  "description": "Configurable BLE advertising system",
+  "main": "server.js",
+  "dependencies": {
+    "eddystone-beacon": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakanWG/BluetoothAdvertiser.git"
+  },
+  "author": "MakanWG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakanWG/BluetoothAdvertiser/issues"
+  },
+  "homepage": "https://github.com/MakanWG/BluetoothAdvertiser#readme"
+}
