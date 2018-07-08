@@ -1,4 +1,4 @@
-//var eddystoneBeacon = require('eddystone-beacon');
+var eddystoneBeacon = require('eddystone-beacon');
 var bodyParser = require("body-parser");
 var express = require('express');
 var path = require('path');
