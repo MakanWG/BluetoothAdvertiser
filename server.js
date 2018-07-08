@@ -21,6 +21,7 @@ app.post('/update-url', function(req, res){
   var requestData = (JSON.parse(req.body));
   console.log(requestData);
   setBeaconUrl(requestData);
+  res.status(200).send({ "success": true });
 })
 
 var url = 'https://www.twitter.com/makanwg';
