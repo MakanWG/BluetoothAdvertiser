@@ -4,7 +4,11 @@
   "description": "Configurable BLE advertising system",
   "main": "server.js",
   "dependencies": {
-    "eddystone-beacon": "^1.0.7"
+    "body-parser": "^1.18.3",
+    "eddystone-beacon": "^1.0.7",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "vue-material": "^1.0.0-beta-7"
   },
   "devDependencies": {},
   "scripts": {
